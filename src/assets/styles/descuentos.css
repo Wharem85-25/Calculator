@@ -1,0 +1,54 @@
+body {
+	background: linear-gradient(to bottom, rgb(207, 49, 207), rgb(23, 211, 218));
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	font:300% sans-serif;
+}
+
+section {
+	text-decoration: none;
+	text-align: center;
+	margin: 10px 450px;
+	border: 5px solid;
+}
+
+div {
+	border-bottom: 5px solid;
+	padding: 50px 50px 77px 50px;
+}
+
+input {
+	 background: rgb(0, 0, 0);
+   border: 1px solid #dfdede;
+   border-radius: 10px;
+   color: #ffffff;
+   font-size: 16px;
+   padding: 5px;
+}
+
+button {
+	background: rgb(104, 140, 170);
+  border: 1px solid #020202;
+  border-radius: 10px;
+	color: #ffffff;
+	font-size: 20px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.subtitle {
+	color: white;
+	font: 150% sans-serif;
+}
+
+.resultados {
+	color: white;
+	font-size: 20px;
+}

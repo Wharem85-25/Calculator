@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Promedio</title>
+	<link rel="stylesheet" href="../src/assets/styles/promedios.css">
+</head>
+<body>
+	<header><h1>Metodos matematicos</h1></header>
+	<section>
+		<div>
+			<p class="subtitle">Ingrese aqui los valores: </p>
+			<input id="listMedia" type="text">
+			<p id="rest" class="resultados"></p>
+			<button type="button" onClick="calcularM()">Calcular la Media Aritmetica</button>
+		</div>
+		<div>
+			<p class="subtitle">Ingrese aqui los valores: </p>
+			<input id="listModa" type="text">
+			<p id="resultModa" class="resultados"></p>
+			<button type="button" onClick="calcularModa()">Calcular la moda</button>
+		</div>
+		<div>
+			<p class="subtitle">Ingrese aqui los valores: </p>
+			<input id="listMediaG" type="text">
+			<p id="resultMediaG" class="resultados"></p>
+			<button type="button" onClick="calcularMediaG()">Calcular la Media Geometrica</button>
+		</div>
+	</section>
+	<script src="../src/components/promedio.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="../src/assets/styles/interes.css">
+	<title>Tipo de intereses</title>
+</head>
+<body>
+	<header>
+		<h1>Calcule los dos tipos de interes</h1>
+	</header>
+	<section>
+		<div>
+			<p class="subtitle">Cantidad de capital que invertira</p>
+			<input id="capital" type="number" placeholder="Capital">
+		</div>
+		<div>
+			<p class="subtitle">Calcular el interes simple</p>
+			<input id="tasa" type="number" placeholder="Tasa">
+			<input id="tiempo" type="number" placeholder="Tiempo">
+			<p id="resSimple" class="resultados"></p>
+			<button type="button" onClick="interesSimple()">Calcular el interes simple</button>
+		</div>
+		<div>
+			<p class="subtitle">Calcular el interes Compuesto</p>
+			<input id="interes" type="number" placeholder="Interes">
+			<input id="periodo" type="number" placeholder="periodo">
+			<p id="resCompuesta" class="resultados"></p>
+			<button type="button" onClick="interesCompuesto()">Calcular el interes Compuesto</button>
+		</div>
+	</section>
+	<script src="../src/components/interes.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Descuentos</title>
+	<link rel="stylesheet" href="../src/assets/styles/descuentos.css">
+</head>
+<body>
+	<header>
+	<h1>Descuentos</h1>
+	</header>
+	<section>
+		<div>
+			<p class="subtitle">Escribe el precio de tu producto: </p>
+			<input id="producto" type="number">
+		</div>
+		<div>
+			<p class="subtitle">Escribe el codigo del cupon aqui: </p>
+			<input id="cupon" type="text">
+			<p id="resul" class="resultados"></p>
+			<button type="button" onClick="cups()">Precione para hacer su descuento</button>
+		</div>
+		<div>
+			<p class="subtitle">Escribe el precio de tu descuento: </p>
+			<input id="descuento" type="number">
+			<p id="resulcup" class="resultados"></p>
+			<button type="button" onClick="porc()">Precione para hacer su descuento</button>
+		</div>
+	</section>
+	<script src="../src/components/descuentos.js"></script>
+</body>
+</html>

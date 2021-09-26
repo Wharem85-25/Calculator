@@ -1,0 +1,44 @@
+body {
+	background: linear-gradient(to bottom, rgb(170, 23, 170), rgb(11, 183, 189));
+}
+
+h1 {
+	font: 300% sans-serif;
+	padding: 40px;
+	text-align: center;
+	color: white;
+}
+
+section {
+	text-decoration: none;
+	text-align: center;
+	margin: 10px 450px;
+	border: 5px solid;
+
+}
+
+div {
+	border-bottom: 5px solid;
+	padding-bottom: 50px;
+}
+
+img {
+	width: 300px;
+	height: 150px;
+}
+
+#media {
+	width: 320px;
+	height: 300px
+}
+
+.operaciones {
+	padding-top: 20px;
+	font: 200% sans-serif;
+	color: white;
+}
+
+.informacion {
+	font: 120% sans-serif;
+	color: white;
+}

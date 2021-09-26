@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="../src/assets/styles/figuras.css">
+	<title>Figuras Geometricas</title>
+</head>
+<body>
+	<h1>Calculos de figuras geometricas</h1>
+	<section>
+		<div>
+			<p class="subtitle">Calcular area y perimetro de un cuadrado</p>
+			<input id="cuadrado" type="text" class="1">
+			<p id="resultCuadrado" class="resultados"></p>
+			<button type="button" onClick="resultadoCuad()">Calcular</button>
+		</div>
+		<div>
+			<p class="subtitle">Calcular el area y perimetro de un triangulo</p>
+			<input id="base" type="text" class="3" placeholder="Base">
+			<input id="lados" type="text" class="3" placeholder="Lados">
+			<input id="altura" type="text" class="3" placeholder="Altura">
+			<p id="resultTriangulo" class="resultados"></p>
+			<button type="button" onClick="resultadoTriangulo()">Calcular</button>
+		</div>
+		<div>
+			<p class="subtitle">Calcular el area y perimetro de un circulo</p>
+			<input id="radio" type="text" class="1" placeholder="Radio">
+			<p id="resultCirculo" class="resultados"></p>
+			<button type="button" onClick="resultadoCirculo()">Calcular</button>
+		</div>
+		<div>
+			<p class="subtitle">Calcular el area y perimetro de un isoseles</p>
+			<input id="lado" type="text" class="3" placeholder="Lado 1">
+			<input id="lado2" type="text" class="3" placeholder="Lado 2">
+			<input id="base" type="text" class="3" placeholder="Base">
+			<p id="resultIsoseles" class="resultados"></p>
+			<button type="button" onClick="resultadoI()">Calcular</button>
+		</div>
+	</section>
+	<script src="../src/components/figuras.js"></script>
+</body>
+</html>
